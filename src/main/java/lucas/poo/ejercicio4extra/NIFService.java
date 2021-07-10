@@ -10,6 +10,7 @@ public class NIFService {
         System.out.println("Ingrese su dni");
         long dni = scan.nextLong();
         nif.setDni(dni);
+        scan.close();
     }
 
     public String calcularNif() {

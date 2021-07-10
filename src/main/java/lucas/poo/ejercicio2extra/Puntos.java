@@ -58,6 +58,7 @@ public class Puntos {
         setX2(scan.nextInt());
         System.out.println("Ingrese y");
         setY2(scan.nextInt());
+        scan.close();
     }
 
     public double calcularDistancia() {

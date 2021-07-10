@@ -1,7 +1,5 @@
 package lucas.poo.ejercicio7;
 
-import java.util.Scanner;
-
 public class PersonaService {
     Persona persona = new Persona();
 

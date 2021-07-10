@@ -1,7 +1,5 @@
 package lucas.poo.ejercicio8;
 
-import java.util.Scanner;
-
 public class CadenaService {
     Cadena cadena = new Cadena();
 

@@ -24,5 +24,6 @@ public class Main {
         } else {
             System.out.println("No la contiene");
         }
+        scan.close();
     }
 }

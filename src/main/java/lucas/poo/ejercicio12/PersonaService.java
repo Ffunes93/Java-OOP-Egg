@@ -16,6 +16,7 @@ public class PersonaService {
         persona.setMes(scan.nextInt());
         System.out.println("Ingrese su fecha de nacimiento (year)");
         persona.setYear(scan.nextInt());
+        scan.close();
     }
 
     public int calcularEdad() {
